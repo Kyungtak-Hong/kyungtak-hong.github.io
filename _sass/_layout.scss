@@ -9,7 +9,7 @@
     position: fixed;
     width: 20%;
     height: 100%;
-    background: #AED581;
+    background: #B1D690;
     @include media-query($on-palm) {
         position: relative;
         width: 100%;
@@ -109,7 +109,7 @@
         &:hover, &.active {
             text-decoration: none;
             color: $text-color;
-            border-right: 5px solid #424242;
+            border-right: 5px solid #47280d;
         }
 
         @include media-query($on-laptop) {
