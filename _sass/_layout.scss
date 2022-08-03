@@ -135,28 +135,28 @@
             }
         }
 
-        .category-dev:hover, .category-dev.active {
-            color: $dev-color;
+        .category-Algebra:hover, .category-Algebra.active {
+            color: $Algebra-color;
             text-decoration: none;
-            border-right: 5px solid $dev-color;
+            border-right: 5px solid $Algebra-color;
         }
 
-        .category-game:hover, .category-game.active {
-            color: $game-color;
+        .category-Analysis:hover, .category-Analysis.active {
+            color: $Analysis-color;
             text-decoration: none;
-            border-right: 5px solid $game-color;
+            border-right: 5px solid $Analysis-color;
         }
 
-        .category-music:hover, .category-music.active {
-            color: $music-color;
+        .category-Geometry:hover, .category-Geometry.active {
+            color: $Geometry-color;
             text-decoration: none;
-            border-right: 5px solid $music-color;
+            border-right: 5px solid $Geometry-color;
         }
 
-        .category-life:hover, .category-life.active {
-            color: $life-color;
+        .category-Etc:hover, .category-Etc.active {
+            color: $Etc-color;
             text-decoration: none;
-            border-right: 5px solid $life-color;
+            border-right: 5px solid $Etc-color;
         }
     }
 
