@@ -9,7 +9,7 @@
     position: fixed;
     width: 25%;
     height: 100%;
-   // background: #B1D690;
+    background: #B1D690;
     @include media-query($on-palm) {
         position: relative;
         width: 100%;
@@ -38,6 +38,14 @@
 .site-blank-line {
     display: block;
     height:15px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color: #ffffff;
+}
+
+.site-blank-box {
+    display: block;
     width:100%;
     margin:0px;
     padding:0px;
