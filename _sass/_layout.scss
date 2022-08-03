@@ -16,17 +16,25 @@
         height: auto;
     }
 }
+
+
 .site-title-wrapper {
     position: fixed;
-    width: 20%;
-    height: 30%;
-   background: #B1D690;
-    @include media-query($on-palm) {
-        position: relative;
-        width: 100%;
-        height: auto;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
     }
 }
+
+
 .site-header-wrapper {
     margin-right: auto;
     margin-left: auto;
