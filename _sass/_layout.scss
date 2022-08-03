@@ -366,7 +366,7 @@
 
 .page-content {
     width: 80%;
-    padding-left: 20%;
+    padding-left: max(20%, 220px);
 
     .cover-img-container {
         overflow:hidden;
