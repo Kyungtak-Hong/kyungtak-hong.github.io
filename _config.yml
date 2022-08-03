@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "„Das Wesen der Mathematik liegt in ihrer Freiheit“"
-subtitle: _Georg Cantor_
+title: „Das Wesen der Mathematik liegt in ihrer Freiheit“
+subtitle: {*Georg Cantor*}
 email: hong420@purdue.edu
 description: >
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,4 +15,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Build settings
 markdown: kramdown
 
-category_list: [ dev, game, music, life ]
+category_list: [ Algebra, Analysis, Geometry, Etc ]
