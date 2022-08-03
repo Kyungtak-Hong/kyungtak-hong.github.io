@@ -17,11 +17,10 @@
     }
 }
 .site-title-wrapper {
-    min-height: 56px;
     position: fixed;
     width: 20%;
     height: 100%;
-    background: #B1D690;
+   background: #B1D690;
     @include media-query($on-palm) {
         position: relative;
         width: 100%;
