@@ -1,0 +1,101 @@
+article.resume {
+    padding-top: 30px;
+    a {
+        text-decoration: underline;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+sub, sup, small {
+    font-weight: 300;
+    color: gray;
+}
+
+small {
+    font-size: 70%;
+}
+
+h2 {
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+#resume-header {
+    height: 180px;
+    width: 100%;
+    a {
+        text-decoration: none;
+    }
+    #profile {
+        height: 150px;
+        width: 150px;
+        background: url("/image/resume/profile.jpg") no-repeat center center;
+        background-size: cover;
+        float: left;
+        margin: 12px 30px 0px 0px;
+    }
+    #info {
+        text-align: left;
+        float: left;
+        height: 100%;
+        width: calc(100%-180px);
+        padding-top: 22px;
+        box-sizing: border-box;
+        #info-name {
+            font-size: 28px;
+            font-weight: 200;
+            sup {
+                font-size: 20px;
+            }
+        }
+        #status {
+            color: gray;
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    #resume-header {
+        height: 300px;
+        width: 100%;
+        #profile {
+            height: 150px;
+            width: 150px;
+            background: url("/image/resume/profile.jpg") no-repeat center center;
+            background-size: cover;
+            margin: 12px auto 0px auto;
+            float: none;
+        }
+        #info {
+            text-align: center;
+            float: none;
+            height: 180px;
+            width: 100%;
+            padding-top: 8px;
+            box-sizing: border-box;
+            #info-name {
+                font-size: 28px;
+                font-weight: 200;
+                sup {
+                    font-size: 20px;
+                }
+            }
+            #status {
+                color: gray;
+            }
+        }
+    }
+}
+
+#update-date {
+    font-size: 14px;
+    color: gray;
+    text-align: end;
+}

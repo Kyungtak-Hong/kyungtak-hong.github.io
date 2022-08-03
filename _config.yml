@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Rajin :"
+subtitle: Gloomhaven
+email: rajin9601@gmail.com
+description: >
+  만들고 싶은 것을 만드는 사람.
+baseurl: "" # the subpath of your site, e.g. /blog
+urlForDisqus: "https://test.com"
+github_username: rajin9601
+twitter_username: rajin9601
+
+# Build settings
+markdown: kramdown
+
+category_list: [ dev, game, music, life ]
