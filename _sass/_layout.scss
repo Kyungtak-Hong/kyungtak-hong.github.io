@@ -7,7 +7,7 @@
     min-height: 56px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    width: 25%;
+    width: 20%;
     height: 100%;
     background: #6bb289;
     @include media-query($on-palm) {
@@ -36,7 +36,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 200;
     line-height: 45px;
     letter-spacing: 5px;
