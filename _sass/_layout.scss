@@ -117,7 +117,8 @@
 
         &:hover, &.active {
             text-decoration: none;
-            color: $text-color;
+            color: #ffffff;
+            background-color: #b1d690;
             border-right: 5px solid #47280d;
         }
 
