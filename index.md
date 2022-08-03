@@ -1,29 +1,23 @@
 ---
-layout: page
+layout: resume
 title: About
 permalink: /
 ---
-만들고 싶은 것을 만드는 사람.
 
-## Timeline
+<div id="resume-header">
+    <div id="profile">
+    </div>
+    <div id="info">
+        <div id="info-name">Jin-Hyung Kim <sup>Rajin</sup></div>
+        <a href="mailto:rajin9601@gmail.com">rajin9601@gmail.com</a>
+        <div id="status">Mobile Client Developer @ VCNC</div>
+    </div>
+</div>
 
-- 2013/10 : 첫 FEZ 플레이
-- 2014/08 : 첫 github commit
-- 2014/11 : 첫 이어폰 구매
-- 2015/04 : 첫 링고 방문
-- 2015/06 : 첫 Amormio 방문
-- 2015/07 : 첫 인턴
-- 2016/04 : 첫 블로그 만들기
-- 2016/09 : 첫 게임 페스티벌 전시
-- 2016/11 : 첫 지스타 참가
-- 2016/11 : 첫 스팀 그린라이트 성공
-- 2017/01 : 첫 Digital Nomad 경험
-- 2017/06 : 첫 게임 런칭
-- 2017/07 : 첫 회사 입사
-- 2017/11 : 첫 앱 런칭
-- 2017/12 : 첫 게임기 구매
-- 2018/08 : 첫 타다 탑승
-- 2019/01 : 첫 개발자 모임 참석
-- 2019/05 : 첫 해외 컨퍼런스 참석
-- 2020/02 : 첫 글룸헤이븐 플레이
-- 2020/?? : What's Next?
+## About myself
+
+* I care about code/software quality & architecture and constantly refactor code.
+* I love exchanging opinions about challenging engineering problem.
+* I like making helper/tools that improves other developer's productivity.
+* I enjoy implementing complex animation that adds unique feeling to the application.
+* I hate [dark pattern](https://darkpatterns.org/).

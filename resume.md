@@ -4,26 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-<div id="resume-header">
-    <div id="profile">
-    </div>
-    <div id="info">
-        <div id="info-name">Jin-Hyung Kim <sup>Rajin</sup></div>
-        {% include icon-github.html username=site.github_username %}
-        {% include icon-twitter.html username=site.twitter_username %}
-        <a href="mailto:rajin9601@gmail.com">rajin9601@gmail.com</a>
-        <div id="status">Mobile Client Developer @ VCNC</div>
-    </div>
-</div>
-
-## About myself
-
-* I care about code/software quality & architecture and constantly refactor code.
-* I love exchanging opinions about challenging engineering problem.
-* I like making helper/tools that improves other developer's productivity.
-* I enjoy implementing complex animation that adds unique feeling to the application.
-* I hate [dark pattern](https://darkpatterns.org/).
-
 ## Experiences
 
 ### Mobile Client Developer for [타다](https://tadatada.com/) <sup>2018.7 - </sup>
