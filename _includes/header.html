@@ -20,7 +20,7 @@
           <a class="page-link{% if page.url == my_page.url %} active{%endif%}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
-        <a class="page-link{% if page.url == "/" %} active{%endif%}" href="{{ site.baseurl }}/"> Blog </a>
+        <a class="page-link{% if page.url == "/blog/" %} active{%endif%}" href="{{ "/blog" | prepend: site.baseurl }}/"> Blog </a>
         <div class="page-category-wrapper">
           {% for category in site.category_list %}
             <a class="category-{{category}} category{% if page.categories contains category or page.category-index == category%} active{% endif %}" href="/{{category | prepend: site.baseurl}}/">{{category | capitalize}}</a>
