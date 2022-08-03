@@ -22,9 +22,10 @@
     width: 20%;
     height: 100%;
     background: #B1D690;
-    @include media-query($on-laptop) {
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+    @include media-query($on-palm) {
+        position: relative;
+        width: 100%;
+        height: auto;
     }
 }
 .site-header-wrapper {
