@@ -118,7 +118,7 @@
         &:hover, &.active {
             text-decoration: none;
             color: #ffffff;
-            background-color: #b1d690;
+            background: #b1d690;
             border-right: 5px solid #47280d;
         }
 
@@ -128,7 +128,7 @@
     }
 
     .page-category-wrapper {
-        padding-left: 20px;
+        padding-left: 30px;
 
         .category {
             color: $grey-color;
