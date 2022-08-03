@@ -5,10 +5,9 @@
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    min-width: 310px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    width: 23%;
+    width: 20%;
     height: 100%;
     background: #B1D690;
     @include media-query($on-palm) {
@@ -88,7 +87,7 @@
 }
 
 .site-subtitle {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 200;
     font-style: italic;
     width:80%;
@@ -366,7 +365,7 @@
 
 .page-content {
     width: 80%;
-    padding-left: 23%;
+    padding-left: 20%;
 
     .cover-img-container {
         overflow:hidden;
