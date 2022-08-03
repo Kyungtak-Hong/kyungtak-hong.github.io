@@ -6,15 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Rajin :"
-subtitle: Gloomhaven
-email: rajin9601@gmail.com
+title: "„Das Wesen der Mathematik liegt in ihrer Freiheit“"
+subtitle: _Georg Cantor_
+email: hong420@purdue.edu
 description: >
-  만들고 싶은 것을 만드는 사람.
 baseurl: "" # the subpath of your site, e.g. /blog
-urlForDisqus: "https://test.com"
-github_username: rajin9601
-twitter_username: rajin9601
 
 # Build settings
 markdown: kramdown

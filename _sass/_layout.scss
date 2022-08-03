@@ -9,6 +9,7 @@
     position: fixed;
     width: 20%;
     height: 100%;
+    background: #6bb289;
     @include media-query($on-palm) {
         position: relative;
         width: 100%;
@@ -31,7 +32,7 @@
     width:100%;
     margin:0px;
     padding:0px;
-    background-color: $grey-color-dark;
+    background-color: #aaaaaa;
 }
 
 .site-title {
