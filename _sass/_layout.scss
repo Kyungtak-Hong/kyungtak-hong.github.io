@@ -32,13 +32,17 @@
     height:7px;
     width:100%;
     margin:0px;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left:0px;
-    padding-right:0px;
+    padding:0px;
     background-color: #aaaaaa;
 }
-
+.site-blank-line {
+    display: block;
+    height:15px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    background-color: #ffffff;
+}
 .site-title {
     font-size: 23px;
     font-weight: 200;
