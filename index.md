@@ -16,4 +16,4 @@ permalink: /
 
 ## About myself
 
-* I am a graduate student. I am interested in geometry and algebra.
+* I am a graduate student. I am interested in geometry.
