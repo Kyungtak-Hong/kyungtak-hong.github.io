@@ -5,9 +5,10 @@
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    min-width: 300px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    width: 25%;
+    width: 23%;
     height: 100%;
     background: #B1D690;
     @include media-query($on-palm) {
