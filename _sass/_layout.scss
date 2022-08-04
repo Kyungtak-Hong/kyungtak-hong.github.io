@@ -333,7 +333,7 @@
 }
 
 .post-content {
-    margin-bottom: 30;
+    margin-bottom: $spacing-unit;
     line-height: 1.8;
 
     h1 {
@@ -358,6 +358,11 @@
         @include media-query($on-laptop) {
             font-size: 16px;
         }
+    }
+
+    p {
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit;
     }
 }
 
