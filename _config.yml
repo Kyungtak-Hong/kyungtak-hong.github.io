@@ -14,5 +14,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 category_list: [ Algebra, Analysis, Geometry, Etc ]
