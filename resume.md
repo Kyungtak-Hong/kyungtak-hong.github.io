@@ -7,16 +7,13 @@ permalink: /resume/
 ## Education
 
 ### Ph.D. in Mathematics. <sup>Aug. 2022 - Present.</sup>
-
 * Purdue University
 
 ### Master's Coursework in Mathematical Science. <sup>Mar. 2019 - Aug. 2022.</sup>
-
 * Seoul National University
 * (Military Service, Jan. 2020 – Oct. 2021.)
 
 ### B.S. in Mathematical Science & Physics. <sup>Mar. 2014 - Aug. 2018.</sup>
-
 * Seoul National University
 
 
