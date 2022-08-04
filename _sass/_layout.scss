@@ -323,11 +323,12 @@
 }
 
 .post-title {
-    font-size: 26px;
+    font-size: 28px;
     letter-spacing: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 24px;
+        letter-spacing: 1px;
     }
 }
 
