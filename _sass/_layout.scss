@@ -325,10 +325,10 @@
 .post-title {
     font-size: 28px;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    line-height: 1.8;
+    margin-bottom: 11px;
     @include media-query($on-laptop) {
         font-size: 24px;
-        letter-spacing: 1px;
     }
 }
 
@@ -471,7 +471,8 @@
 .post-link {
     display: block;
     font-size: 24px;
-    margin-top:-14px;
+    line-height: 1.5;
+    //margin-top:-14px;
 }
 
 
