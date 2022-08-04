@@ -116,7 +116,7 @@
     }
 
     .page-link {
-        color: #42260d;
+        color: $grey-color;
         line-height: 2;
         display:block;
         width:100%;
@@ -128,7 +128,7 @@
         &:hover, &.active {
             text-decoration: none;
             color: $text-color;
-            border-right: 5px solid #42260d;
+            border-right: 5px solid #9a581e;
         }
 
         @include media-query($on-laptop) {
