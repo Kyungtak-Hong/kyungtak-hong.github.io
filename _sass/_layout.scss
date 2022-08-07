@@ -373,7 +373,7 @@
 
 .page-content {
     width: 80%;
-    padding-left: max(20%, 220px);
+    padding-left: calc(max(20%, 220px));
 
     .cover-img-container {
         overflow:hidden;
