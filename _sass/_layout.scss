@@ -8,7 +8,7 @@
     min-width: 220px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background: #B1D690;
     @include media-query($on-palm) {
@@ -90,11 +90,11 @@
 .site-subtitle {
     font-size: 15px;
     font-weight: 200;
-    // font-style: italic;
+    font-style: italic;
     width:80%;
-    padding-left:50%;
+    padding-left:10%;
     //line-height: 45px;
-    letter-spacing: 15px;
+    letter-spacing: -10px;
     padding-bottom: 20px;
     //text-align: right;
     //color: $grey-color;
