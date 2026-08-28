@@ -2,6 +2,7 @@
 layout: resume
 title: About
 permalink: /
+order: 1
 ---
 
 <div id="resume-header">

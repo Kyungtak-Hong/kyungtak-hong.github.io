@@ -2,6 +2,7 @@
 layout: resume
 title: CV
 permalink: /resume/
+order: 2
 ---
 
 ## Education
