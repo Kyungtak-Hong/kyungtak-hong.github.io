@@ -10,7 +10,7 @@ order: 4
 * **Jordan–Chevalley Decomposition of Endomorphisms** [[PDF](/files/Jordan-Chevalley.pdf)]  
   An expository note on the additive and multiplicative Jordan–Chevalley decompositions via $K[t]$-modules and the Chinese Remainder Theorem, together with properties of unipotent elements in zero and positive characteristics.
 
-* **Note on Braverman–Gaitsgory Theory** [[PDF](/files/Braverman-Gaitsgory.pdf)]
+* **Note on Braverman–Gaitsgory Theory** [[PDF](/files/Braverman-Gaitsgory.pdf)]  
   An exposition of the Poincaré–Birkhoff–Witt (PBW) deformation theorem for Koszul algebras via graded deformations and Hochschild cohomology.
 
 <div id="update-date">Last updated: November 10, 2026</div>
