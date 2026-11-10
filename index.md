@@ -20,7 +20,7 @@ order: 1
 
 ## About Me
 
-I am a Ph.D. candidate in the Department of Mathematics at Purdue University, advised by [Prof. Oleksandr Tsymbaliuk](https://www.math.purdue.edu/~otsymbal/). Prior to joining Purdue in 2022, I received my B.S. in Mathematical Sciences and Physics (*Summa Cum Laude*) and completed Master's coursework in Mathematical Sciences at Seoul National University.
+I am a Ph.D. candidate in the Department of Mathematics at Purdue University, advised by [Prof. Oleksandr Tsymbaliuk](https://www.math.purdue.edu/~otsymbal/). Prior to joining Purdue in 2022, I received my B.S. in Mathematical Sciences and Physics and completed Master's coursework in Mathematical Sciences at Seoul National University.
 
 * **Curriculum Vitae:** [Download PDF](/files/CV_Kyungtak_Hong.pdf)
 
