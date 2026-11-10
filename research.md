@@ -12,6 +12,8 @@ My research focuses on the structure and representation theory of **quantum supe
 
 ## Publications & Preprints
 
+[View my profile on arXiv Author Page](https://arxiv.org/a/hong_k_2.html)
+
 1. **Rank reduction in orthosymplectic types** (with A. Tsymbaliuk)  
    Preprint (2026). [[arXiv:2610.37460](https://arxiv.org/abs/2610.37460)]
 
