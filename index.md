@@ -29,7 +29,7 @@ I am a Ph.D. candidate in the Department of Mathematics at Purdue University, ad
 My primary research areas are **representation theory** and **mathematical physics**, with connections to quantum integrable systems and low-dimensional topology. In particular:
 
 * **Quantum (super)groups and their representations:** Explicit Hopf superalgebra isomorphisms among Drinfeld–Jimbo, new Drinfeld, and RLL realizations; universal and evaluated *R*-matrices uniform across arbitrary parity sequences.
-* **Categorical and structural quantization paradigms:** Nichols algebras, tensor categories, Etingof–Kazhdan quantization, and categorification via quiver Hecke (KLR) superalgebras.
+* **Categorical and structural quantization paradigms:** Nichols algebras, tensor categories, Etingof–Kazhdan quantization, and categorification via quiver Hecke (KLR) (super)algebras.
 
 ## Contact
 
