@@ -1,11 +1,10 @@
 <header class="site-header" style="padding-top: 1px; padding-bottom: 1px;">
-  <script type="text/javascript">{% include header.js %}</script>
 
-  <div class="wrapper" style="background: #ffffff; margin: 15px; padding: 15px;">
-    <div class="site-header-line" > </div>
-    <a class="site-title" href="{{ site.baseurl }}/"> {{ site.title }} </a>
-    <p class="site-subtitle"> {{ site.subtitle }} </p>
-    <div class="site-header-line" > </div>
+  <div class="wrapper" style="background: #ffffff; margin: 15px; padding: 18px 16px;">
+    <div class="site-header-line"></div>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <p class="site-subtitle">{{ site.subtitle }}</p>
+    <div class="site-header-line"></div>
     
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -23,14 +22,6 @@
           <a class="page-link{% if page.url == my_page.url %} active{%endif%}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
-        <!--
-        <a class="page-link{% if page.url == "/blog/" %} active{%endif%}" href="{{ "/blog" | prepend: site.baseurl }}/"> Blog </a>
-        <div class="page-category-wrapper">
-          {% for category in site.category_list %}
-            <a class="category-{{category}} category{% if page.categories contains category or page.category-index == category%} active{% endif %}" href="/{{category | prepend: site.baseurl}}/">{{category | capitalize}}</a>
-          {% endfor %}
-        </div>
-        -->
       </div>
     </nav>
 

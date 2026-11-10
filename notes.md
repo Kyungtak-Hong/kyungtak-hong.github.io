@@ -4,3 +4,15 @@ title: Notes
 permalink: /notes/
 order: 4
 ---
+
+## Expository Notes
+
+* **Jordan–Chevalley Decomposition of Endomorphisms** [[PDF](/files/Jordan-Chevalley.pdf)]  
+  An expository note on the additive and multiplicative Jordan–Chevalley decompositions via *K*[*t*]-modules and the Chinese Remainder Theorem, together with properties of unipotent elements in zero and positive characteristics.
+
+<!--
+* **Note on Braverman–Gaitsgory Theory** [[PDF](/files/Note_Braverman_Gaitsgory.pdf)]  
+  An expository account of the Poincaré–Birkhoff–Witt deformation theorem for quadratic Koszul algebras via Koszul complexes and graded Hochschild cohomology.
+-->
+
+<div id="update-date">Last updated: November 10, 2026</div>

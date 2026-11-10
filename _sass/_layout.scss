@@ -2,18 +2,19 @@
  * Site header
  */
 .site-header {
-    //border-top: 5px solid $grey-color-dark;
-    //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    min-width: 220px;
-    // Positioning context for the mobile navigation icon
+    min-width: 240px;
     position: fixed;
-    width: 18%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 20%;
     height: 100%;
     background: #B1D690;
     @include media-query($on-palm) {
         position: relative;
         width: 100%;
+        min-width: 0;
         height: auto;
     }
 }
@@ -28,87 +29,98 @@
         padding-left: $spacing-unit / 2;
     }
 }
+
 .site-header-line {
     display: block;
-    height:7px;
-    width:100%;
-    margin:0px;
-    padding:0px;
+    height: 4px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     background-color: #aaaaaa;
 }
+
 .site-blank-line {
     display: block;
-    height:15px;
-    width:100%;
-    margin:0px;
-    padding:0px;
+    height: 15px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     background-color: #ffffff;
 }
 
 .site-blank-box {
     display: block;
-    width:100%;
-    margin:0px;
-    padding:0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     background-color: #ffffff;
 }
+
 .site-title {
-    font-size: 23px;
-    font-weight: 200;
-    line-height: 45px;
-    letter-spacing: 5px;
-    margin-left:10px;
-    padding-top:20px;
-    padding-bottom:15px;
-    //border-top: 5px solid $grey-color-dark;
-    //float: left;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.35;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    word-break: keep-all;
     display: block;
     &,
     &:visited {
         color: $grey-color-dark;
     }
-    &::first-letter {
-        font-size: 200%;
-        font-weight: 100;
-    }
     &:hover {
         text-decoration: none;
-        //background-color: #efefef;
     }
     @include media-query($on-laptop) {
-        font-size:18px;
-        &::first-letter {
-            font-size: 37px;
-        }
+        font-size: 18px;
     }
     @include media-query($on-palm) {
-        display:inline;
-        padding-left:10px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 4px;
     }
 }
 
 .site-subtitle {
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: 300;
     font-style: italic;
-    width:80%;
-    padding-left:10%;
-    //line-height: 45px;
-    letter-spacing: -10px;
-    padding-bottom: 20px;
-    //text-align: right;
-    //color: $grey-color;
+    text-align: right;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: $grey-color;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 16px;
     display: block;
+
+    .sub-line {
+        display: block;
+        white-space: nowrap;
+    }
+
+    @include media-query($on-laptop) {
+        font-size: 12px;
+    }
+
     @include media-query($on-palm) {
         width: auto;
-        display: inline;
-        padding-left:0px;
-        padding-bottom: 0px;
+        text-align: left;
+        display: block;
+        padding-bottom: 10px;
+        padding-right: 45px;
+
+        .sub-line {
+            display: inline;
+        }
     }
 }
 
 .site-nav {
-    //float: right;
     line-height: 30px;
 
     .menu-icon {
@@ -118,12 +130,12 @@
     .page-link {
         color: $grey-color;
         line-height: 2;
-        display:block;
-        width:100%;
+        display: block;
+        width: 100%;
         margin: 10px 0px;
-        letter-spacing: 2px;
-        font-weight: 200;
-        font-size: 18px;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+        font-size: 17px;
 
         &:hover, &.active {
             text-decoration: none;
@@ -141,10 +153,10 @@
 
         .category {
             color: $grey-color;
-            font-weight:200;
+            font-weight: 200;
             letter-spacing: 2px;
             line-height: 2;
-            margin:5px 0px;
+            margin: 5px 0px;
             display: block;
             font-size: 16px;
             width: 100%;
@@ -181,13 +193,13 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
+        top: 25px;
+        right: 25px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: left;
-        z-index:1;
+        z-index: 20;
 
         .menu-icon {
             display: block;
@@ -221,7 +233,8 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-            width:100px;
+            width: 120px;
+            margin: 2px 0;
             border-right: 5px solid rgba(0,0,0,0);
 
             &:not(:last-child) {
@@ -236,10 +249,8 @@
             width: calc(100% - 5px);
             border-right: 5px solid rgba(0,0,0,0);
         }
-
     }
 }
-
 
 
 /**
@@ -314,9 +325,9 @@
 /**
  * Posts
  */
- .post {
-     padding-top:$spacing-unit;
- }
+.post {
+    padding-top: $spacing-unit;
+}
 
 .post-header {
     margin-bottom: calc(#{$spacing-unit} * 2);
@@ -338,7 +349,6 @@
 
     h1 {
         font-size: 24px;
-
         @include media-query($on-laptop) {
             font-size: 20px;
         }
@@ -346,7 +356,6 @@
 
     h2 {
         font-size: 22px;
-
         @include media-query($on-laptop) {
             font-size: 18px;
         }
@@ -354,7 +363,6 @@
 
     h3 {
         font-size: 20px;
-
         @include media-query($on-laptop) {
             font-size: 16px;
         }
@@ -370,31 +378,32 @@
 /**
  * Page content
  */
-
 .page-content {
-    width: 80%;
-    padding-left: calc(max(20%, 220px));
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: calc(max(22%, 270px));
+    padding-right: 40px;
 
     .cover-img-container {
-        overflow:hidden;
-        width:100%;
-        height:400px;
-        position:relative;
+        overflow: hidden;
+        width: 100%;
+        height: 400px;
+        position: relative;
         img {
-            position:absolute;
-            top:0;
-            bottom:0;
-            left:0;
-            right:0;
-            display:block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: block;
             width: 100%;
-            margin:auto;
+            margin: auto;
         }
     }
 
     @include media-query($on-palm) {
-        width:100%;
-        padding:0;
+        width: 100%;
+        padding: 0 20px;
     }
 }
 
@@ -406,53 +415,49 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
-        //margin-bottom: $spacing-unit;
-    }
-
     .post-list-item {
-        width:100%;
-        height:200px;
-        position:relative;
-        overflow:hidden;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
 
-        img  {
-            position:absolute;
-            top:0;
-            bottom:0;
-            left:0;
-            right:0;
-            display:block;
-            width:100%;
-            margin:auto;
+        img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            width: 100%;
+            margin: auto;
         }
         .black-overlay {
-            position:absolute;
-            width:100%;
-            height:100%;
-            background-color:rgba(0,0,0,0.1);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.1);
         }
         .post-info-white {
-            position:absolute;
+            position: absolute;
             padding: 20px 30px;
-            width:auto;
-            height:auto;
+            width: auto;
+            height: auto;
             .post-meta, .post-link {
                 color: white;
             }
         }
         .post-cover-pattern {
-            position:absolute;
+            position: absolute;
             background-image: url("/image/white-pattern.png");
             background-repeat: repeat;
-            width:100%;
-            height:100%;
+            width: 100%;
+            height: 100%;
         }
         .post-info-black {
-            position:absolute;
+            position: absolute;
             padding: 20px 30px;
-            width:auto;
-            height:auto;
+            width: auto;
+            height: auto;
             .post-meta, .post-link {
                 color: $grey-color;
             }
@@ -461,12 +466,11 @@
         @include media-query($on-palm) {
             height: 150px;
 
-            .post-info-white, .post-info-black{
+            .post-info-white, .post-info-black {
                 padding: 10px 20px;
             }
         }
     }
-
 }
 
 .post-meta {
@@ -478,14 +482,12 @@
     display: block;
     font-size: 24px;
     line-height: 1.5;
-    //margin-top:-14px;
 }
 
 
 /**
  * Category content
  */
-
 .category-wrapper {
     padding-top: $spacing-unit;
     max-width: calc(800px - (30px * 2));
@@ -503,7 +505,6 @@
     font-weight: 100;
     letter-spacing: 5px;
 }
-
 
 .center {
     display: block;
