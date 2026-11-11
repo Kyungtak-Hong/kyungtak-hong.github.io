@@ -5,6 +5,24 @@ permalink: /
 order: 1
 ---
 
+<style>
+.chalkboard-container {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 20.5rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: left;
+}
+@media (max-width: 640px) {
+  .chalkboard-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+</style>
+
 <div id="resume-header">
     <div id="profile">
         <img src="/image/resume/profile.jpg" alt="Kyungtak Hong">
@@ -36,12 +54,13 @@ My primary research areas are **representation theory** and **mathematical physi
 * **Email:** [hong420@purdue.edu](mailto:hong420@purdue.edu)
 * **Address:** Department of Mathematics, Purdue University, 150 N. University Street, West Lafayette, IN 47907, USA
 
-<div style="margin-top: 3.5rem; margin-bottom: 1.5rem; text-align: right;">
-  <img src="/image/Wabash.jpg" alt="Chalkboard portrait" style="max-width: 18.5rem; width: 100%; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+<div class="chalkboard-container">
+  <img src="/image/Wabash.jpg" alt="Chalkboard portrait" style="width: 100%; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   aspect-ratio: 16 / 9; object-fit: cover; object-position: top; transform: translateZ(0); backface-visibility: hidden;">
-  <p style="font-size: 0.78rem; color: #777; margin-top: 0.4rem; line-height: 1.35;">
-    Chalkboard portrait drawn by <a href="https://sites.google.com/view/estepan-ashkarian/home" target="_blank">Estepan Ashkarian</a>.<br>
-    Top: <a href="https://alexanderhsu.com/" target="_blank">Alex Hsu</a> · Bottom: Estepan, me, Carlos Agrinsoni.
+  <p style="font-size: 0.76rem; color: #777; margin-top: 0.4rem; line-height: 1.35;">
+    Chalkboard portrait drawn by <a href="https://sites.google.com/view/estepan-ashkarian/home" target="_blank" style="white-space: nowrap;">Estepan Ashkarian</a>.<br>
+    Top: <a href="https://alexanderhsu.com/" target="_blank">Alex Hsu</a>.<br>
+    Bottom: Estepan, me, Carlos Agrinsoni.
   </p>
 </div>
 
