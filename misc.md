@@ -34,7 +34,7 @@ order: 5
 
 <div class="cello-photo-desktop">
   <img src="/image/misc/Cello.jpg" alt="Playing the cello at SNUPO" style="width: 100%; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-  <p style="font-size: 0.74rem; color: #777; margin-top: 0.4rem; line-height: 1.35;">
+  <p style="font-size: 0.74rem; color: #777; margin-top: 02rem; line-height: 1.35;">
     Running through a passage with the concertmaster, Changhwan Oh<br>
     (a close friend since high school), at SNUPO.
   </p>
