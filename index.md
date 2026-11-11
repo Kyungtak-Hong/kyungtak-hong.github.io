@@ -10,7 +10,7 @@ order: 1
         <img src="/image/resume/profile.jpg" alt="Kyungtak Hong">
     </div>
     <div id="info">
-        <div id="info-name">Kyungtak Hong <sup></sup></div>
+        <div id="info-name">Kyungtak Brian Hong <sup>홍경탁</sup></div>
         <a href="mailto:hong420@purdue.edu">hong420@purdue.edu</a>
         <div id="status">Ph.D. Candidate in Mathematics, Purdue University</div>
     </div>
@@ -45,4 +45,4 @@ My primary research areas are **representation theory** and **mathematical physi
   </p>
 </div>
 
-<div id="update-date">Last updated: November 10, 2026</div>
+<div id="update-date">Last updated: November 11, 2026</div>
