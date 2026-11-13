@@ -25,7 +25,7 @@ order: 3
 ## Academic Service
 
 * **Referee / Reviewer:** *International Mathematics Research Notices (IMRN)* (2026)
-* **Co-organizer, Mathematics Student Colloquium:** Purdue University (weekly; with C. Agrinsoni and R. Zou, 2026–2027)
+* **Co-organizer, [Mathematics Student Colloquium](https://rpzou.github.io/PurdueMathStudentColloquiumFall2026/):** Purdue University (weekly; with C. Agrinsoni and [R. Zou](https://rpzou.github.io/PersonalWeb/), 2026–2027)
 * **Co-organizer, Student Geometric Representation Theory Seminar:** Purdue University (weekly; with V. Sinha, Spring 2026–Present)
 
 
@@ -56,4 +56,4 @@ order: 3
 * **AGNES (Algebraic Geometry Northeastern Series)**, University of Pennsylvania, Philadelphia, PA <sup>2023</sup>
 * **K-Theory, Algebraic Cycles and Mathematical Physics**, The Ohio State University, Columbus, OH <sup>2023</sup>
 
-<div id="update-date">Last updated: November 10, 2026</div>
+<div id="update-date">Last updated: November 12, 2026</div>
