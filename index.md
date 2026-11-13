@@ -60,7 +60,7 @@ My primary research areas are **representation theory** and **mathematical physi
   <p style="font-size: 0.76rem; color: #777; margin-top: 0.4rem; line-height: 1.35;">
     Chalkboard portrait drawn by <a href="https://sites.google.com/view/estepan-ashkarian/home" target="_blank" style="white-space: nowrap;">Estepan Ashkarian</a>.<br>
     Top: <a href="https://alexanderhsu.com/" target="_blank">Alex Hsu</a>.<br>
-    Bottom: Estepan, me, Carlos Agrinsoni.
+    Bottom: Estepan, me, <a href="https://cagrinso-github-io.vercel.app" target="_blank">Carlos Agrinsoni</a>.
   </p>
 </div>
 
